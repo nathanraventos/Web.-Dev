@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap");
+
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -22,7 +26,15 @@ main section{
 
 body{
     background-color: #8ecae6 ;
+    font-family: "Rock Salt", "Roboto", "Tahoma", "sans-serif";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+h2 {
+    margin: 0;
+}
+
 header{
     background-color:#256da3 ;
 }
@@ -35,6 +47,9 @@ nav a:hover{
     background-color: #8ecae6;
     color:#000000;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color:#e7d4af;
@@ -46,16 +61,21 @@ nav a:hover{
 }
 .msg{
     background-color: #e7d4af;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #256da3;
 }
 .msg p{
     color: black;
+    padding-bottom: 15px;
 }
 footer{
     background-color: white;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: black;
@@ -67,10 +87,14 @@ footer a:hover{
 nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: black;
-}
+    font-family: "Geneva", "Comic Sans MS", "Tahoma", "sans-serrif";
+    font-size: 2em;
+    margin-top: 10px;
+}   
 h4{
     color: black;
 }
@@ -83,4 +107,22 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0px;
+}
+.card-img{
+    border: 10px;
+}
+main section img{
+    box-sizing: border-box;
 }
