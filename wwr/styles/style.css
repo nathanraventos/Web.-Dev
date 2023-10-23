@@ -44,7 +44,7 @@ nav a:hover{
 
 }
 .book, .join{
-    background-color: #8ecae6;
+    background-color: #ffffff;
     color:#000000;
     text-decoration: none;
     padding: 15px 30px;
@@ -52,12 +52,12 @@ nav a:hover{
     border-radius: 5px;
 }
 .join{
-    background-color:#e7d4af;
+    background-color:#ffffff;
     color: black;
 }
 .book:hover, .join:hover{
     background-color: white;  
-    color: black;  
+    color: #256da3;  
 }
 .msg{
     background-color: #e7d4af;
@@ -121,7 +121,7 @@ footer .social img{
     margin: 200px 0px;
 }
 .card-img{
-    border: 10px;
+    border: 10px black solid;
 }
 main section img{
     box-sizing: border-box;
