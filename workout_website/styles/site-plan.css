@@ -8,22 +8,22 @@ Fonts are separated by a | */
   --primary-color: #000000   ;
   --secondary-color: #B1A7A6;
   --accent1-color: #751f21;
-  --accent2-color: #b8181e;
+  --accent2-color: #c51f24;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above and this isn't working */
-  --headline-color-on-white: #b8181e;  /* headlines on a white background */ 
+  --headline-color-on-white: #c51f24;  /* headlines on a white background */ 
   --headline-color-on-color: #000000 ; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #b8181e; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #c51f24; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #000000 ; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #b8181e  ;
-  --nav-link-color: ##ba0000;    
+  --paragraph-background-color: #c51f24  ;
+  --nav-link-color: #c51f24;    
   --nav-background-color: #B1A7A6;
   --nav-hover-link-color: #333131 ;
-  --nav-hover-background-color: #b8181e;
+  --nav-hover-background-color: #c51f24;
 }
 
 
