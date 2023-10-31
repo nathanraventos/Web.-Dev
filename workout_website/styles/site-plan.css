@@ -14,7 +14,7 @@ Fonts are separated by a | */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
+  /* these colors below should be chosen from among your palette colors above and this isn't working */
   --headline-color-on-white: #b8181e;  /* headlines on a white background */ 
   --headline-color-on-color: #000000 ; /* headlines on a colored background */ 
   --paragraph-color-on-white: #b8181e; /* paragraph text on a white background */ 
