@@ -267,13 +267,13 @@ nav{
 .sub_img2{
     grid-column: 5/7;
     grid-row: 2/3;
-    height: 300px;
+    height: 200pxpx;
     margin: auto;
 }
 .sub_img3{
     grid-column: 8/10;
     grid-row: 2/3;
-    height: 400px;
+    height: 300px;
     margin: auto;
 }
 .sub_pagetitle{
