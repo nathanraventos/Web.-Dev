@@ -27,12 +27,7 @@ main section{
 
 }
 
-#background {
-    height: 725px;
-    background-color: #dedad2;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
+
 
 body{
     background-color: #8ecae6 ;
@@ -282,10 +277,6 @@ nav{
     font-size: 58px;
 }
 
-.questions{
-
-    
-}
 
 
 
