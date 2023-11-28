@@ -15,9 +15,9 @@ Fonts are separated by a | */
   --paragraph-font: "Roboto", "Tahoma", "sans-serif";
 
   /* these colors below should be chosen from among your palette colors above and this isn't working */
-  --headline-color-on-white: #c51f24;  /* headlines on a white background */ 
-  --headline-color-on-color: #000000 ; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #c51f24; /* paragraph text on a white background */ 
+  --headline-color-on-white: #000000;  /* headlines on a white background */ 
+  --headline-color-on-color: white ; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffffff ; /* paragraph text on a colored background */ 
   --paragraph-background-color: #c51f24 ;
   --nav-link-color: #c51f24;    
