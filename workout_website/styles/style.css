@@ -8,7 +8,7 @@
 
 
 #hero-msg h1{
-    color: white;
+    color: #000000;
     text-align: center;
     margin-top: 50px;
 }
@@ -32,7 +32,7 @@
     z-index: -1;
 }
 #hero-msg h4{
-    color: white;
+    color: #000000;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@
 
 /* WORKOUT PIC AND MSG */
 body{
-    background-color: #8ecae6 ;
+    background-color: #751f21 ;
     font-family: "Rock Salt", "Roboto", "Tahoma", "sans-serif";
     font-size: 22px;
     margin: 0;
@@ -55,21 +55,21 @@ body{
 }
 
 .msg{
-    background-color: #e7d4af;
+    background-color: white;
     line-height: 1.5em;
     padding: 25px;
     grid-column: 5/10;
     grid-row: 1/2;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #000000;
     padding-top: 25px;
     margin: 25px;
 }
 .msg h2{
-    color: #256da3;
+    color: #000000;
     font-family: "Roboto";
 }
 .msg p{
-    color: black;
+    color: #000000;
     padding-bottom: 15px;
     font-size: 0.8em;
     font-family: "sans-serif";
@@ -77,13 +77,22 @@ body{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0px;
 }
-
+.workout_button{
+    background-color: #000000;
+    color:white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Roboto";  
+}
 /* Next picture and paragraph */
 
 
 #background {
     height: 900px;
-    background-color: #dedad2;
+    background-color: white;
     grid-column: 1/11;
     grid-row: 4/7;
 }
@@ -94,28 +103,25 @@ body{
     margin: 100px
 }
 .msg2{
-    background-color: #e7d4af;
+    background-color: #751f21;
     line-height: 1.5em;
     padding: 25px;
     grid-column: 2/6;
     grid-row: 4/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px black;
     padding-top: 25px;
     margin: 25px;
 }
 .msg2 h2{
-    color: #256da3;
+    color: white;
     font-family: "Roboto";
 }
 .msg2 p{
-    color: black;
+    color: white;
     padding-bottom: 15px;
     font-size: 0.8em;
     font-family: "sans-serif";
 }
-
-
-
 
 
 main section{
@@ -140,10 +146,10 @@ header{
 }
 nav a:hover{
     background-color: white ;
-    color: black;
+    color: #c51f24;
 
 }
-.workout_button, .join{
+.diet_button, .join{
     background-color: #ffffff;
     color:#000000;
     text-decoration: none;
@@ -159,10 +165,10 @@ nav a:hover{
 }
 .workout_button:hover, .join:hover{
     background-color: white;  
-    color: #256da3;  
+    color: #c51f24;  
 }
 footer{
-    background-color: #dedad2;
+    background-color: white;
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
@@ -175,23 +181,23 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: rgb(83, 83, 141);
+    color: #751f21;
 }
 nav a{
-    color: white;
+    color: #c51f24;
     text-decoration: none;
     padding: 35px;
     text-align: center;
 
 }
 .home-title{
-    color: black;   
+    color: white;   
     font-family: "Geneva", "Comic Sans MS", "Tahoma", "sans-serrif";
     font-size: 2em;
     margin-top: 10px;
 }   
 h4{
-    color: black;
+    color: white;
 }
 footer p{
     font-size: 1.2em;
@@ -214,7 +220,7 @@ footer .social img{
 }
 
 .card-img{
-    border: 10px black solid;
+    border: 10px #000000;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
