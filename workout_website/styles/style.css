@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap");
 
+
+#navbar{
+    overflow: hidden;
+    background-color: #333
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
     display: grid;
 }
-
+.content, .sticky{
+    padding-top: 15px;
+}
 
 #hero-msg h1{
     color: #000000;
@@ -146,7 +159,7 @@ header{
 }
 nav a:hover{
     background-color: white ;
-    color: #c51f24;
+    color: #000000;
 
 }
 .diet_button, .join{
