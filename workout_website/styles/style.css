@@ -302,8 +302,7 @@ nav{
 
 .workout_image {
     grid-column: 3/7;
-    grid-row: 1/5;
-    border: 10px white solid;
+    grid-row: 1/6;
     margin: 15px;
 }
 .workout_sub_pic{
@@ -425,13 +424,6 @@ nav{
 }
 
 
-
-
-.workout_sub_pic {
-width: 250px;
-
-
-}
 
 
 
